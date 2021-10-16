@@ -36,7 +36,7 @@ public class PostAdapter extends BaseAdapter {
     @Override
     public View getView(int position, View convertView, ViewGroup viewGroup) {
         View rowView = inflater.inflate(R.layout.activity_row,null);
-        EditText txtMessage = rowView.findViewById(R.id.a);
+        EditText txtMessage = rowView.findViewById(R.id.txtMessage);
         TextView txtLocation = rowView.findViewById(R.id.txtLocation);
         ImageView imageView = rowView.findViewById(R.id.imageView);
 
